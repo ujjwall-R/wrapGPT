@@ -9,3 +9,12 @@ MongoDB Atlas string required to facilitate memorization in long term
 go build
 go run main.go
 ```
+
+Send POST request on http://localhost:5001/
+
+```
+{
+    "userid":"",
+    "prompt":""
+}
+```
